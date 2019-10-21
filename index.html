@@ -5,205 +5,182 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <h1 class="logo">ENGLISHUP</h1>
-            <!-- <img alt="Brand" src="..."> -->
-          </a>
-        </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="about.html">회사소개</a></li>
-          <li><a href="edu.html">강의소개</a></li>
-          <li><a href="review.html">수강후기</a></li>
-          <li><a href="boy.html">상품소개</a></li>
-          <li><a href="contact.html">상담하기</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main class="index_page">
-    <section class="main_showcase">
-      <div class="row">
-        <div class="col-lg-5 col-xs-12">
-          <div class="main_headidng">
-            <p>Start Up!</p>
-            <h2>잉글리쉬업을 통해<br> 영어를 다시 시작해보세요</h2>
-            <p class="desc"> 독립·영토의 보전·국가의 계속성과 헌법을 수호할 책무를 진다. 국회는 국민의 보통·평등·직접·비밀선거에 의하여 선출된 국회의원으로 구성한다</p>
-          </div>
-        </div>
-        <div class="col-lg-7 col-xs-12"></div>
-      </div>
-    </section>
-    <section class="main_intro container">
-      <div class="section_heading">
-        <h2>잉글리쉬업</h2>
-        <p class="desc">좋다는 영어 강의, 영어 공부 방법에도 도돌이표 영어실력에 고민스러울 때,<br>잉글리쉬 업이 시원한 해답을 드리겠습니다. 시원한 해답을 드리겠습니다.</p>
-      </div>
-      <ul class="why_icon row">
-        <li class="col-lg-4">
-          <i class="xi-trophy xi-2x"></i>
-          <h3>기초에 충실</h3>
-          <p>리얼 회화에 필요한 기초를 확실하게 다시 잡아드립니다.</p>
-        </li>
-        <li class="col-lg-4">
-          <i class="xi-thumbs-up xi-2x"></i>
-          <h3>Quelity</h3>
-          <p>회는 국민의 보통·평등·직접·비밀선거에 의하여 선출된 국회의원으로 구성한다</p>
-        </li>
-        <li class="col-lg-4">
-          <i class="xi-forum xi-2x"></i>
-          <h3>1:1코칭</h3>
-          <p>공부중에 막히거나, 온라인/오프라인</p>
-        </li>
+  <!-- nav -->
+  <header class="">
+    <h1 class="logo">
+      <a href="main.html">
+        <img src="images/logo.png" alt="">
+      </a>
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="about.html">멘토스</a></li>
+        <li><a href="class.html">강좌찾기</a></li>
+        <li><a href="notice.html">새소식</a></li>
+        <li><a href="contact.html">문의하기</a></li>
+        <li><a href="my.html"><span class="hidden">my</span></a></li>
       </ul>
-    </section>
-    <section class="main_target container">
-      <div class="section_heading">
-        <h2>추천대상</h2>
-        <p>아래와 같은 고민이 있으시다면 잉글리쉬업을할 할 때!</p>
+    </nav>
+    <div class="sub_header">
+      <div class="logo_desc">
+        <h2 class="ft_eng">
+          Find Bestment<br>
+          <strong>
+            Web Development
+          </strong>
+        </h2>
       </div>
-      <div class="row">
-        <!-- card-lefts -->
-        <div class="col-xs-12 col-lg-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">고민하고 있으시나요?</h3>
-            </div>
-            <div class="panel-body">
-              <p>반복적인 학습에도 실력이 늘지 않으시는 분</p>
-              <p>문법위주 공부로 한계를 느끼신 분</p>
-              <p>공간과 시간에 제약없는 강의를 찾으시는 분</p>
-              <p>가성비가 좋은 영어강좌</p>
-            </div>
-          </div>
+      <div class="logo_desc2">
+        <p>전세계 30개국 10,000명 이상의 멘토 속에서
+          당신에게 맞는 최고의 멘토를 찾아보세요
+        </p>
+        <p>
+          새로운 세계를 첫걸음을,
+          멘토스와 함께 하세요
+        </p>
+      </div>
+    </div>
+  </header>
+  <!-- main SLider -->
+  <main class="main_page">
+    <div class="main_slider">
+      <img src="images/main.png" alt="">
+    </div>
+    <!-- classLsit -->
+    <div class="main_classlist">
+      <h2 class="heading"> Popular Education</h2>
+      <ul class="main_cate">
+        <li>웹개발</li>
+        <li>마케팅</li>
+        <li class="actvie">디자인</li>
+        <li>자기계발</li>
+      </ul>
+      <div class="grid_row">
+        <div class="col-3">
+          <img src="images/edu1.png" alt="">
+          <span>웹개발</span>
+          <h3>아이폰어플개발</h3>
+          <p>멘토스에 있기있는 초급코스!<br>개발자의 꿈을 시작해보세요</p>
         </div>
-        <!-- card-right -->
-        <div class="col-xs-12 col-lg-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">해결해드리겠습니다</h3>
-            </div>
-            <div class="panel-body">
-              <p>반복적인 학습에도 실력이 늘지 않으시는 분</p>
-              <p>문법위주 공부로 한계를 느끼신 분</p>
-              <p>공간과 시간에 제약없는 강의를 찾으시는 분</p>
-              <p>가성비가 좋은 영어강좌</p>
-            </div>
-          </div>
+        <div class="col-3">
+          <img src="images/edu2.png" alt="">
+          <span>웹개발</span>
+          <h3>아이폰어플개발</h3>
+          <p>멘토스에 있기있는 초급코스!<br>개발자의 꿈을 시작해보세요</p>
+        </div>
+        <div class="col-3">
+          <img src="images/edu3.png" alt="">
+          <span>웹개발</span>
+          <h3>아이폰어플개발</h3>
+          <p>멘토스에 있기있는 초급코스!<br>개발자의 꿈을 시작해보세요</p>
+        </div>
+        <div class="col-3">
+          <img src="images/edu4.png" alt="">
+          <span>웹개발</span>
+          <h3>아이폰어플개발</h3>
+          <p>멘토스에 있기있는 초급코스!<br>개발자의 꿈을 시작해보세요</p>
         </div>
       </div>
-    </section>
-    <section class="main_person container">
-      <div class="section_heading">
-        <h2>최고의 강사진</h2>
-        <p>10년이상의 강사 경력과 유머러스함이 지루하지 않은 강의을 만날 수 있습니다. 학생별 맞춤 커리큘럼으로 짧은 시간에 최대의 효과를 느껴보세요</p>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-xs-6 person_card">
-          <div class="placeholder">
-            <!-- <img src="..." alt="..." class="img-rounded"> -->
-            <p class="placeholder_txt">IMG 250</p>
-          </div>
-          <h3>김마리아</h3>
-          <p>리얼 생활 영어.<br> 회화 어려워하지마세요</p>
-          <p class="label_row">
-            <span class="label label-default">#스폰지밥영어</span>
-            <span class="label label-default">#찰떡발음</span>
-          </p>
-        </div>
-        <div class="col-lg-3 col-xs-6 person_card">
-          <div class="placeholder">
-            <!-- <img src="..." alt="..." class="img-rounded"> -->
-            <p class="placeholder_txt">IMG 250</p>
-          </div>
-          <h3>알렉스</h3>
-          <p>원어민 앞에서 입이 얼어버리는 분, 회화의 감을 잡아드리겠습니다.</p>
-          <p class="label_row">
-            <span class="label label-default">#영국식영어</span>
-            <span class="label label-default">#실전트레이닝</span>
-          </p>
-        </div>
-        <div class="col-lg-3 col-xs-6 person_card">
-          <div class="placeholder">
-            <!-- <img src="..." alt="..." class="img-rounded"> -->
-            <p class="placeholder_txt">IMG 250</p>
-          </div>
-          <h3>브라이언 킴</h3>
-          <p>확실하게,재밌게,쉽게 <br>기초영어 끝내드리겠습니다.</p>
-          <p class="label_row">
-            <span class="label label-default">#토익과회화한번에</span>
-            <span class="label label-default">#왕기초이론</span>
-          </p>
-        </div>
-        <div class="col-lg-3 col-xs-6 person_card">
-          <div class="placeholder">
-            <!-- <img src="..." alt="..." class="img-rounded"> -->
-            <p class="placeholder_txt">IMG 250</p>
-          </div>
-          <h3>제니</h3>
-          <p>영작문의 감을 잡아, 더 즐거워지는 영어</p>
-          <p class="label_row">
-            <span class="label label-default">#베어스베어영어</span>
-            <span class="label label-default">#영단어영문장</span>
+    </div>
+    <!-- introduce -->
+    <div class="main_intro">
+      <div class="main_intro_row">
+        <img src="images/left.png" alt="">
+        <div class="txt_box">
+          <h2>
+            <span class="ft_light">당신의 삶을 두근거리게할</span>
+            배우고 싶은 분야를 정해보세요.
+          </h2>
+          <p>
+            두려워하거나 걱정하지마세요.<br>
+            그 꿈을 하고 있는 나를 상상해보세요.<br>그리고 도전해보세요
           </p>
         </div>
       </div>
-      <div class="btn_case">
-        <a href="" class="btn red">알아보러가기</a>
+      <div class="main_intro_row">
+        <img src="images/right.png" alt="">
+        <div class="txt_box">
+          <h2>
+            <span class="ft_light"> 멘토스의 커리큘럼, 후기를 보고</span>
+            당신에게 맞는 멘토를 찾아보세요
+          </h2>
+          <p>수많은 멘토들 중에 딱 맞는 멘토를 찾기는 쉽지 않을거에요.
+            <br>하지만, 멘토스의 커리큘럼, 후기를 보고<br>
+            좋은 파트너이자 스승이 되줄 멘토를 찾아보세요.</p>
+        </div>
       </div>
-    </section>
-    <section class="main_buy container">
-      <div class="section_heading">
-        <h2>영어, 다시 시작해보세요</h2>
-        <p>10년이상의 강사 경력과 유머러스함이 지루하지 않은 강의을 만날 수 있습니다. 학생별 맞춤 커리큘럼으로 짧은 시간에 최대의 효과를 느껴보세요</p>
-      </div>
-      <div class="row">
-        <div class="panel panel-default col-lg-5 col-md-5 col-md-offset-1 buy_card1">
-          <div class="panel-body">
-            Basic panel example
+    </div>
+    <div class="main_icons">
+      <div class="grid_row">
+        <div class="col-4">
+          <div class="inner">
+            <i class="xi-headset xi-2x"></i>
+            <h3>
+              <strong>100,000개</strong>의 온라인강의<br>
+              <strong>50개</strong>의 전문분야
+            </h3>
           </div>
         </div>
-        <div class="panel panel-default col-lg-5 col-md-5 buy_card2">
-          <div class="panel-body">
-            Basic panel example
+        <div class="col-4">
+          <i class="xi-touch xi-2x"></i>
+          <h3>
+            <strong>전문가</strong>의 가르침<br>
+            <strong>나에게 맞는</strong>멘토찾기
+          </h3>
+        </div>
+        <div class="col-4">
+          <i class="xi-run xi-2x"></i>
+          <h3>
+            <strong>평생 이용</strong><br>
+            <strong>일정</strong>에 맞춘 학습
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="main_service">
+      <h2 class="heading">Service Focus</h2>
+      <div class="grid_row">
+        <div class="col-4">
+          <div class="txt_box">
+            <span>맞춤강좌</span>
+            <h3>나에게 맞는 강좌찾기</h3>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="txt_box">
+            <span>추천멘토</span>
+            <h3>나에게 맞는 멘토찾기</h3>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="txt_box">
+            <span>멘토등록</span>
+            <h3>멘토로 시작하기</h3>
           </div>
         </div>
       </div>
-    </section>
-    <section class="main_contact container clearFix">
-      <div class="col-xs-12 col-lg-3">
-        <div class="section_heading">
-        <h2 class="">영어, 알아보세요</h2>
-        <p class="">대통령의 임기는 5년으로 하며, 중임할 수 없다. 대통령은 전시·사변 또는 이에 준하는 국가비상</p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-lg-4 col-lg-offset-1">
-        <a href="btn">강의알러보러가기</a>
-      </div>
-      <div class="col-xs-12 col-lg-4">
-        <a href="btn">상담하기</a>
-      </div>
-    </section>
-    <footer class="">
-      <div class="container clearFix">
-        <div class="col-lg-4 col-xs-12">
-          <p>잉글리쉬업</p>
-        </div>
-        <div class="col-lg-8 col-xs-12">
-        </div>
-      </div>
-    </footer>
+    </div>
   </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="grid_row">
+      <div class="col-8">
+        <img src="images/logo.png" alt="">
+        <p>TEL：080-3800-8221　FAX：0574-58-3389</p>
+        <p>metos@gmail.com　www.mentos.com</p>
+      </div>
+      <div class="col-4">
+        <p>Copyright (c) 2019 Copyright Holder All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
