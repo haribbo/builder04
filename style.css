@@ -157,11 +157,10 @@ header nav>ul>li>a { line-height: 48px; font-weight: bold; font-size: 16px;}
  footer .grid_row .col-4 {border-top:4px solid var(--sub-color);margin-top: 50px;}
 
 /* sub_pages */
- .sub_showcase {height: 224px; display: table; background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url("images/showcase.jpg")no-repeat center right/cover; width: 100%; }
- .sub_showcase .txt_box {display: table-cell; vertical-align: bottom; margin: 0 auto; text-align: left;}
- .sub_showcase .txt_box h2 {text-transform: uppercase; line-height: 1.2; margin-bottom: 0; max-width: 1100px; margin: 0 auto; text-align: left; position: relative; z-index: 10;padding-left: 21px;}
- .sub_showcase .txt_box span {display: block; max-width: var(--max-width); margin: 0 auto; text-align: left; z-index: 10; position: relative; padding-left:21px; font-size: 14px; top:-3px;}
- .sub_showcase .txt_box h2:after {width: 160px; height: 90px; background: #fff; content:''; position: absolute; left:0; bottom:-30px; z-index: -1;}
+ .sub_showcase {height:300px; display: table; background: linear-gradient(rgba(51,134,236,0.7),rgba(51,134,256,0.7)),url("images/showcase.jpg")no-repeat center right/cover; width: 100%; }
+ .sub_showcase .txt_box {display: table-cell; vertical-align: middle; margin: 0 auto; text-align: left; color:var(--ft-white); text-align: center;}
+ .sub_showcase h2 {color:inherit; margin-bottom: 12px; font-size: 37px;}
+ .sub_showcase span {display: block; text-align: center; font-size: 14px;}
 
 .profile_list .row {overflow: hidden; margin-bottom: 50px;}
 .profile_list .row .profile_left {width: 300px; float: left; position: relative;}
@@ -180,7 +179,51 @@ main.about_page {max-width: 1100px; margin: 0 auto;}
 .company_info .table { display:table;}
 .company_info .row {display: table-row;}
 .company_info .tit {display: table-cell; min-width: 130px; font-weight: bold;}
-
+/* contact_page */
+main.contact_page {padding: 80px 0;}
+section.contact {max-width: var(--max-width); margin: 0 auto; overflow: hidden;}
+section.contact .contact_left {float: left; width: 70%;}
+section.contact .contact_right {float: right; width: 30%;}
+.inputs_group {margin-bottom: 20px;}
+.inputs_group label {display: block; width: 100%; font-size: 16px; margin-bottom: 8px; font-weight: bold; line-height: 1; color:#555;}
+.inputs_group label:after {content: '*'; color:var(--point-color); vertical-align: super; padding-left: 2px;}
+.inputs_group input {border:none; outline: none; background: #dfdfdf; padding: 14px 20px; width: 85%;}
+.inputs_group textarea {border:none; outline: none; background: #dfdfdf; width: 85%; resize: none; height: 200px; padding: 20px 20px;}
+.social_icons  { margin-bottom: 30px;}
+.social_icons li {display: inline-block; width: 35px; line-height: 35px; background: #dfdfdf; text-align: center; border-radius: 50%;}
+.social_icons li i {font-size: 20px; color:#fff; vertical-align:sub;}
+section.contact .contact_right .company_info {}
+section.contact .contact_right .company_info h3 {font-size: 18px; font-weight: bold; }
+section.contact .contact_right .company_info .company_info_list {margin-bottom: 30px;}
+section.contact .contact_right .company_info .company_info_list li {font-size: 16px;}
+section.contact .contact_right .company_info .admin {color:var(--point-color);}
+.inputs_group.btn { text-align: right; padding-right: 15%;}
+.submit_btn {text-align: center; border:none; outline: none; background: none; border:1px solid var(--ft-color); font-size: 16px; font-weight: normal;
+padding: 8px 25px; display:inline-block; transition: all .3s;}
+.submit_btn:hover {background: var(--point-color); color:var(--ft-white); border-color:var(--point-color);}
+/* notice_board_page */
+main.notice_page {padding: 80px 0;}
+main.notice_page .cate_box {margin: 0 auto; max-width: var(--max-width); background: #eee; text-align: center; padding: 20px 0;}
+main.notice_page .cate_box h3 {font-size: 16px; margin-bottom: 4px;}
+main.notice_page .cate_box p { font-size: 14px; }
+main.notice_page .cate_box .cate_box_list {display: inline-block; margin: 10px 0;}
+main.notice_page .cate_box .cate_box_list li {display: inline-block; line-height: 20px; padding: 0 10px;  position: relative;}
+main.notice_page .cate_box .cate_box_list li.active {font-weight: bold; color:var(--point-color);}
+main.notice_page .cate_box .cate_box_list li:after {position: absolute; top:10%; width: 1px; height: 80%; right:0; background: #c7c7c7; content: ''; z-index: 3;}
+main.notice_page .cate_box .cate_box_list li:last-child:after {display: none;}
+.notice_board {max-width: var(--max-width); margin: 0 auto; padding: 40px 0;}
+.notice_board .notice_row {display: table; width: 100%; padding: 13px 0; border-bottom: 1px solid #e7e7e7;}
+.notice_board .notice_row span {display: table-cell; color:#555;}
+.notice_board .notice_row span.tit {font-weight: bold; color:var(--ft-color); padding-left: 20px;}
+.notice_board .notice_row span.auther {width: 200px; text-align: center;}
+.notice_board .notice_row span.date {width: 150px; text-align: center;}
+.notice_board .notice_row.notice_header {border-top: 2px solid var(--point-color); background: #eee;}
+.notice_board .notice_row.notice_header span {font-weight: bold; color:#555;}
+.notice_board .notice_row.notice_header span.tit {text-align: center;}
+.notice_board .notice_board_btns {text-align: right; margin-top: 30px;}
+.notice_board .notice_board_btns button {text-align: center; border:none; outline: none; background: none; background: #e7e7e7; font-size: 16px; font-weight: normal; display: inline-block; padding: 8px 25px; color:#555; transition: all .3s;}
+.notice_board .notice_board_btns button:hover {background: var(--point-color); color:var(--ft-white); border-color:var(--point-color);}
+}
 
 /* 미디어쿼리 */
 @media (max-width:900px) {
@@ -206,4 +249,12 @@ main.about_page {max-width: 1100px; margin: 0 auto;}
 
  .profile_list .row .profile_left {float: none;}
  .profile_list .row .profile_right {margin-left:0;}
+
+main.contact_page  {padding-bottom: 0;}
+ section.contact .contact_left {float: none; width: 100%; margin-bottom: 50px;}
+ section.contact .contact_right {float: none; width: 100%; text-align: center;}
+ .inputs_group input {width: 100%;}
+ .inputs_group textarea {width: 100%;}
+ .inputs_group.btn  {padding: 0;}
+
 }
